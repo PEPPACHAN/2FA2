@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We use your data to provide personalized subscription offers and improve our authenticator app experience. Your privacy is important to us, and you can control this setting anytime in your device settings.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to scan QR codes from saved images and automatically add two-factor authentication accounts to your authenticator app.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+		<key>UIImageName</key>
+		<string>LaunchLogo</string>
+	</dict>
+</dict>
+</plist>

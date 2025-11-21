@@ -25,7 +25,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     
     private func hudConfig() {
-        Apphud.start(apiKey: "app_MtkT8hnbvsERWumW42ZZFrzRs4vXho")
+        Apphud.start(apiKey: "API_KEY")
         Apphud.setDeviceIdentifiers(idfa: nil, idfv: UIDevice.current.identifierForVendor?.uuidString)
         fetchIDFA()
     }

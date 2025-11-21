@@ -1,0 +1,8 @@
+app_store_connect: - 5011Zyntrio
+bundle_identifier: com.jack.zyntrio2faaunt
+BUNDLE_ID: "com.jack.zyntrio2faaunt"
+XCODE_PROJECT: "2FA_2.xcodeproj"
+XCODE_SCHEME: "2FA_2"
+APP_STORE_APPLE_ID: 6755149662
+recipients:
+          - 1abiturient1@gmail.com

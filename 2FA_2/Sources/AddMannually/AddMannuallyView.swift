@@ -23,6 +23,9 @@ struct AddMannuallyView: View {
     
     @StateObject private var vm: AddMannuallyVM = AddMannuallyVM()
     var account: Accounts?
+    @FocusState private var isKey
+    @FocusState private var isName
+    @FocusState private var isService
     @Binding var isEdit: Bool
     
     var body: some View {
@@ -61,6 +64,7 @@ struct AddMannuallyView: View {
                         
                     )
                     .multilineTextAlignment(.trailing)
+                    .focused(field == MannualTextFields.key ? $isKey : field == MannualTextFields.secret ? $isName : $isService)
                     
                 }
                 .padding(14)
@@ -133,7 +137,15 @@ struct AddMannuallyView: View {
         .onChange(of: vm.key, perform: { newValue in
             vm.key = fourDigitFormatted(of: newValue)
         })
-        .background(Color.mainBG)
+        .background(
+            Color.mainBG
+                .ignoresSafeArea()
+                .onTapGesture(perform: {
+                    isKey = false
+                    isName = false
+                    isService = false
+                })
+        )
         .onAppear {
             if let account = account {
                 vm.key = account.secret ?? "No secret"

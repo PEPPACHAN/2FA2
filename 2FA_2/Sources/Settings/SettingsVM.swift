@@ -56,7 +56,7 @@ enum SettingsButtons: CaseIterable {
         switch self {
         case .rate: return ""
         case .support: return "https://docs.google.com/forms/d/e/1FAIpQLSdYoIiOYF7JbKXl6ziixZLIWAxK7Q7deHez6Y4hpeUcnK9DfQ/viewform?usp=publish-editor"
-        case .share: return "https://apps.apple.com/us/app/zyntrio-2fa-authenticator/id6755149662"
+        case .share: return "https://apps.apple.com/us/app/securekey-authenticator/id6755472545"
         case .version: return ""
         case .privacy: return "https://docs.google.com/document/d/1TYLoSOtqqqDTOg-qQtRqCYxzrfxEcOu68_adX_hsZWw/edit?usp=sharing"
         case .terms: return "https://docs.google.com/document/d/1GdUE5bYvBfcMf9yHiiQ8Xw18ZSkyYx6Q4hErH-s4RYw/edit?usp=sharing"

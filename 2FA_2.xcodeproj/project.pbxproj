@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		FC91E4352ECF5716007A4A1C /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FC91E4342ECF5716007A4A1C /* ApphudSDK */; };
 		FC91E43A2ED04B57007A4A1C /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = FC91E4392ED04B57007A4A1C /* SwiftOTP */; };
+		FCA2D1B32ED095C100756447 /* Codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1B22ED095B300756447 /* Codemagic.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC91E24A2ECF44AB007A4A1C /* 2FA_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2FA_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA2D1B22ED095B300756447 /* Codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Codemagic.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -64,6 +66,7 @@
 		FC91E2412ECF44AB007A4A1C = {
 			isa = PBXGroup;
 			children = (
+				FCA2D1B22ED095B300756447 /* Codemagic.yaml */,
 				FC91E24C2ECF44AB007A4A1C /* 2FA_2 */,
 				FC91E24B2ECF44AB007A4A1C /* Products */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA2D1B32ED095C100756447 /* Codemagic.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +180,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 2FA_2/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SecureKey-Authenticator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -218,6 +223,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 2FA_2/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SecureKey-Authenticator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
